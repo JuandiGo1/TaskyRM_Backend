@@ -92,5 +92,5 @@ El backend se ejecutará en `http://localhost:5000` 🚀
 
 
 
-¡Gracias por usar **TaskyRM Backend**! 🎉
+¡Gracias por usar **TaskyRM API REST**! 🎉
 
