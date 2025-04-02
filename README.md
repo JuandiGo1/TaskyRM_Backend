@@ -64,7 +64,7 @@ Si deseas correr **TaskyRM Backend** localmente, sigue estos pasos:
 
 ### 1️⃣ Clonar el Repositorio
 ```bash
-git clone https://github.com/tu-repo/taskyrm-backend.git
+git clone https://github.com/JuandiGo1/TaskyRM_Backend.git
 cd taskyrm-backend
 ```
 
@@ -72,8 +72,8 @@ cd taskyrm-backend
 Crea un archivo `.env` en la raíz del backend con las siguientes variables:
 ```env
 PORT=5000
-MONGO_URI=tu_conexion_a_mongodb
-JWT_SECRET=tu_secreto_jwt
+MONGO_URI=tu_conexion_a_mongodb (pruebalo en local con mongoDB)
+JWT_SECRET=tu_secreto_jwt (define tu palabra clave para los JWT)
 FRONTEND_URL= tu http://localhost para el front
 ```
 
