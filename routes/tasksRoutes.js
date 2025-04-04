@@ -2,6 +2,7 @@ import express from "express";
 import {
   addTask,
   deleteTask,
+  deleteAllTask,
   editTask,
   completeTask,
   getUserTasksByPriority,
@@ -18,6 +19,9 @@ routerTasks.post('/add', checkAuth, addTask);
 
 // Eliminar una tarea
 routerTasks.delete('/delete/:id', checkAuth, deleteTask);
+
+// Eliminar todas las tareas del usuario autenticado
+routerTasks.delete('/deleteall', checkAuth, deleteAllTask);
 
 // Editar una tarea
 routerTasks.put('/edit/:id', checkAuth, editTask);

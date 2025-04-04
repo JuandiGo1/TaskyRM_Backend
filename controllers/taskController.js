@@ -42,6 +42,18 @@ export const deleteTask = async (req, res) => {
   }
 };
 
+// Eliminar todas las tareas del usuario autenticado
+export const deleteAllTask = async (req, res) => {
+  try {
+    await TaskModel.deleteMany({ user: req.user.id });
+
+    res.json({ message: "Tareas eliminada con éxito"});
+  } catch (error) {
+    res.status(500).json({ message: "Error al eliminar las tareas", error });
+  }
+};
+
+
 // Editar una tarea
 export const editTask = async (req, res) => {
   try {
