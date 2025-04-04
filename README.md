@@ -49,6 +49,10 @@ TaskyRM es el backend de una aplicación de gestión de tareas (**To-Do App**) d
   - **Headers:** `{ "Authorization": "Bearer jwt_token" }`
   - **Respuesta:** `{ "message": "Tarea eliminada con éxito" }`
 
+- `DELETE /task/deleteall` → Eliminar todas las tareas del usuario.
+  - **Headers:** `{ "Authorization": "Bearer jwt_token" }`
+  - **Respuesta:** `{ "message": "Tareas eliminadas con éxito" }`
+
 ---
 
 ## 🚀 Tecnologías Usadas
