@@ -7,7 +7,7 @@ TaskyRM es el backend de una aplicación de gestión de tareas (**To-Do App**) d
 ## 🌍 Despliegue y Repositorio
 
 🔹 **Backend en Producción:** [TaskyRM Backend - Vercel](https://tasky-rm-backend.vercel.app)  
-
+🔹 **Frontedn en Producción:** [TaskyRM Frontend - Vercel](https://tasky-rm-frontedn.vercel.app)  
 
 ---
 
